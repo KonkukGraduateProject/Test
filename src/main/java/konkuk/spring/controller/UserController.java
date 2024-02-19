@@ -26,6 +26,12 @@ public class UserController {
         return reverseMessage;
     }
 
+    @ResponseBody
+    @GetMapping("/simpleUI")
+    public String simpleUI() {
+        return "success";
+    }
+
 
 
 
